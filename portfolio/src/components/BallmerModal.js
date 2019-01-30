@@ -5,12 +5,13 @@ const BallmerModal = ({ handleClose, Ballmershow, children }) => {
   
     return (
       <div className={showHideClassName}>
-            <section className="modal-main">
+            <section className="ballmer-main">
             {children}
-            <h1>Ballmer</h1>
-                
-                
-          <button onClick={handleClose}>close</button>
+            <div className="form">
+            <h4>Form</h4>
+            <button onClick={handleClose}>close</button>
+
+          </div>
         </section>
       </div>
     );

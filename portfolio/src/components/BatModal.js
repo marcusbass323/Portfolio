@@ -5,12 +5,13 @@ const BatModal = ({ handleClose, Batshow, children }) => {
   
     return (
       <div className={showHideClassName}>
-            <section className="modal-main">
+            <section className="bat-main">
             {children}
-          <h1>The Bat</h1>
-                
-                
-          <button onClick={handleClose}>close</button>
+            <div className="form">
+            <h4>Form</h4>
+            <button onClick={handleClose}>close</button>
+
+          </div>
         </section>
       </div>
     );

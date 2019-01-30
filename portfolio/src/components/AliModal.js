@@ -5,12 +5,15 @@ const AliModal = ({ handleClose, Alishow, children }) => {
   
     return (
       <div className={showHideClassName}>
-            <section className="modal-main">
+            <section className="ali-main">
             {children}
-          <h1>Ali</h1>
+            <div className="form">
+            <h4>Form</h4>
+            <button onClick={handleClose}>close</button>
+
+          </div>
                 
                 
-          <button onClick={handleClose}>close</button>
         </section>
       </div>
     );

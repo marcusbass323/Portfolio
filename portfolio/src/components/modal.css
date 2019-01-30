@@ -1,0 +1,57 @@
+#modalimg {
+    height: 250px;
+    width: 250px;
+}
+
+.form {
+    height: 100%;
+    width: 100%;
+    border: 1px solid red;
+    background-color: black;
+    margin: auto;
+    opacity: 0.8;
+}
+
+input {
+    height: 25px;
+    width: 150px;
+}
+
+
+
+Button {
+    width: 150px;
+}
+
+.hulk-main {
+    background-image: url("https://i.pinimg.com/originals/93/9b/eb/939bebec5eb59fefcb15850e20fffecd.jpg");
+    height: 80%;
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.ballmer-main {
+    background-image: url("https://timedotcom.files.wordpress.com/2014/04/clippers_fans_0430.jpg");
+    height: 80%;
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.bat-main {
+    background-image: url("http://4.bp.blogspot.com/-ECiHk4A6hUY/UqlYvityZ9I/AAAAAAABQ6A/BgLF6WY4rv4/s1600/Batman66-06-26s-X3.jpg");
+    height: 80%;
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.ali-main {
+    background-image: url("http://www.4usky.com/data/out/63/164561807-muhammad-ali-wallpapers.jpg");
+    height: 80%;
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+}
+
